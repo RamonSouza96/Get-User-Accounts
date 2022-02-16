@@ -1,0 +1,153 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'FrmMain'
+  ClientHeight = 800
+  ClientWidth = 400
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFFEAEAEA
+    Size.Width = 400.000000000000000000
+    Size.Height = 800.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object RectSave: TRectangle
+      Align = MostBottom
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF91A9EF
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF1C92FA
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 1.000000000000000000
+      Fill.Gradient.StartPosition.Y = 0.456255733966827400
+      Fill.Gradient.StopPosition.Y = 0.543744266033172600
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 733.000000000000000000
+      Size.Width = 370.000000000000000000
+      Size.Height = 47.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 15.000000000000000000
+      YRadius = 15.000000000000000000
+      object BtnGetAccountContacts: TSpeedButton
+        Align = Client
+        StyledSettings = [Style]
+        Locked = True
+        Size.Width = 370.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Get Email in contact'
+        TextSettings.Font.Family = 'Bahnschrift'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        OnClick = BtnGetAccountContactsClick
+      end
+    end
+    object mmLog: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = Client
+      Size.Width = 400.000000000000000000
+      Size.Height = 539.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Viewport.Width = 396.000000000000000000
+      Viewport.Height = 535.000000000000000000
+    end
+    object Rectangle2: TRectangle
+      Align = MostBottom
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF91A9EF
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF1C92FA
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 1.000000000000000000
+      Fill.Gradient.StartPosition.Y = 0.456255733966827400
+      Fill.Gradient.StopPosition.Y = 0.543744266033172600
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 646.000000000000000000
+      Size.Width = 370.000000000000000000
+      Size.Height = 47.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 15.000000000000000000
+      YRadius = 15.000000000000000000
+      object SpeedButton2: TSpeedButton
+        Align = Client
+        StyledSettings = [Style]
+        Size.Width = 370.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'GetAccountManeger'
+        TextSettings.Font.Family = 'Bahnschrift'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        OnClick = SpeedButton2Click
+      end
+    end
+    object Rectangle3: TRectangle
+      Align = MostBottom
+      Fill.Kind = Gradient
+      Fill.Gradient.Points = <
+        item
+          Color = xFF91A9EF
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF1C92FA
+          Offset = 1.000000000000000000
+        end>
+      Fill.Gradient.StartPosition.X = 1.000000000000000000
+      Fill.Gradient.StartPosition.Y = 0.456255733966827400
+      Fill.Gradient.StopPosition.Y = 0.543744266033172600
+      HitTest = False
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Margins.Bottom = 20.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 559.000000000000000000
+      Size.Width = 370.000000000000000000
+      Size.Height = 47.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      XRadius = 15.000000000000000000
+      YRadius = 15.000000000000000000
+      object SpeedButton1: TSpeedButton
+        Align = Client
+        StyledSettings = [Style]
+        Locked = True
+        Size.Width = 370.000000000000000000
+        Size.Height = 47.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'GetAccountManeger2'
+        TextSettings.Font.Family = 'Bahnschrift'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.FontColor = claWhite
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+end
